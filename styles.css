@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.home {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(53, 50, 3, 0.2), rgba(4, 11, 4, 0.6)),
+    url(images/img1.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.knit {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(154, 159, 136);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 2% 1%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 150%;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.menu li:hover {
+  opacity: 0.5;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 10px;
+  position: relative;
+}
+
+.knit .nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 10px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: bisque;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.knit .nav-links ul li a {
+  color: rgb(79, 65, 48);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: #1a3a46;
+  background-color: rgb(159, 167, 147);
+  opacity: 0.7;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+
+  padding: 10px;
+}
+.container > div {
+  background-color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+div
